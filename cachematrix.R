@@ -1,4 +1,4 @@
-## R programming assignment week 2 
+## R programming assignment week 3 
 ## Pisanu Chaloemrattanaporn
 
 ## functions calculate inverse matrix and store result in cache
@@ -21,7 +21,7 @@ makeCacheMatrix <- function(x = matrix()) {
             return(FALSE)
         }
         
-        if (det(x) == 0) {
+        if (det(m) == 0) {
             message("The input matrix is singular!")  
             return(FALSE)
         }
